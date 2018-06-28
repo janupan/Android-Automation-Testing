@@ -19,3 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+Mobile.startApplication('/Users/januaripanjaitan/git/Repo-Sumsel/Android Apk/Polisi110_Staging200618.apk', true)
+
+Mobile.tap(findTestObject('android.widget.ImageButton0'), 0)
+
+Mobile.tap(findTestObject('android.widget.ImageView0 (2)'), 0)
+
+Mobile.closeApplication()
+

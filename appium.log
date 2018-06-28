@@ -1,17 +1,17 @@
 [Appium] Welcome to Appium v1.8.1
 [Appium] Non-default server args:
-[Appium]   port: 63879
+[Appium]   port: 49368
 [Appium]   loglevel: info
-[Appium]   chromeDriverPort: 63880
-[Appium]   tmpDir: /var/folders/lv/m53tlwf945s_kzj42t7j4yhw0000gn/T//Katalon/Appium/Temp1529650603149
-[Appium] Appium REST http interface listener started on 0.0.0.0:63879
+[Appium]   chromeDriverPort: 49369
+[Appium]   tmpDir: /var/folders/lv/m53tlwf945s_kzj42t7j4yhw0000gn/T//Katalon/Appium/Temp1530180764693
+[Appium] Appium REST http interface listener started on 0.0.0.0:49368
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/status 200 25 ms - 83
+[HTTP] <-- GET /wd/hub/status 200 18 ms - 83
 [HTTP] 
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/status 200 17 ms - 83
+[HTTP] <-- GET /wd/hub/status 200 12 ms - 83
 [HTTP] 
 [HTTP] --> POST /wd/hub/session
 [HTTP] {"desiredCapabilities":{"app":"/Users/januaripanjaitan/git/Repo-Sumsel/Android Apk/Polisi110_Staging200618.apk","autoGrantPermissions":true,"deviceName":"samsung SM-J500G (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"d568d8da"},"capabilities":{"desiredCapabilities":{"app":"/Users/januaripanjaitan/git/Repo-Sumsel/Android Apk/Polisi110_Staging200618.apk","autoGrantPermissions":true,"deviceName":"samsung SM-J500G (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"d568d8da"},"firstMatch":[{"platformName":"android"}]}}
@@ -29,7 +29,7 @@
 [Appium]   platformName: Android
 [Appium]   udid: d568d8da
 [BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
-[BaseDriver] Session created with session id: 2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
+[BaseDriver] Session created with session id: 85e27c90-92c6-4c08-a3a1-777b0663417c
 [AndroidDriver] Java version is: 1.8.0_102
 [ADB] Checking whether adb is present
 [ADB] Found 1 'build-tools' folders under '/Users/januaripanjaitan/.katalon/tools/android_sdk' (newest first):
@@ -52,256 +52,84 @@
 [ADB] No uiautomator process found to kill, continuing...
 [AndroidBootstrap] Android bootstrap socket is now connected
 [AndroidDriver] Screen already unlocked, doing nothing
-[Appium] New AndroidDriver session created successfully, session 2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b added to master session list
-[HTTP] <-- POST /wd/hub/session 200 13499 ms - 1168
+[Appium] New AndroidDriver session created successfully, session 85e27c90-92c6-4c08-a3a1-777b0663417c added to master session list
+[HTTP] <-- POST /wd/hub/session 200 15868 ms - 1168
 [HTTP] 
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/status 200 60 ms - 55
+[HTTP] <-- GET /wd/hub/status 200 58 ms - 55
 [HTTP] 
-[HTTP] --> POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/timeouts
+[HTTP] --> POST /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/timeouts
 [HTTP] {"type":"implicit","ms":60000}
-[HTTP] <-- POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/timeouts 400 16 ms - 4197
+[HTTP] <-- POST /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/timeouts 400 18 ms - 4197
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/source
+[HTTP] --> GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/source
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/source 200 304 ms - 552
+[HTTP] <-- GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/source 200 267 ms - 3628
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/screenshot
+[HTTP] --> GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/screenshot
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/screenshot 200 1547 ms - 549046
+[HTTP] <-- GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/screenshot 200 1451 ms - 500934
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/source
+[HTTP] --> GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/source
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/source 200 59 ms - 6810
+[HTTP] <-- GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/source 200 127 ms - 26377
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/screenshot
+[HTTP] --> GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/screenshot
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/screenshot 200 1495 ms - 549046
+[HTTP] <-- GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/screenshot 200 1583 ms - 511798
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/window/current/size
+[HTTP] --> GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/window/current/size
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/window/current/size 200 11 ms - 99
+[HTTP] <-- GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/window/current/size 200 10 ms - 99
 [HTTP] 
-[HTTP] --> POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/elements
-[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[2]"}
-[HTTP] <-- POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/elements 200 118 ms - 89
+[HTTP] --> POST /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/elements
+[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[2]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[2]"}
+[HTTP] <-- POST /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/elements 200 158 ms - 89
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
+[HTTP] --> GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 4 ms - 1168
+[HTTP] <-- GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c 200 5 ms - 1168
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
+[HTTP] --> GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 4 ms - 1168
+[HTTP] <-- GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c 200 2 ms - 1168
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
+[HTTP] --> GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 5 ms - 1168
+[HTTP] <-- GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c 200 5 ms - 1168
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
+[HTTP] --> GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 3 ms - 1168
+[HTTP] <-- GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c 200 4 ms - 1168
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/element/1/location
+[HTTP] --> GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/element/1/location
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/element/1/location 200 12 ms - 89
+[HTTP] <-- GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/element/1/location 200 33 ms - 89
 [HTTP] 
-[HTTP] --> POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/touch/perform
+[HTTP] --> POST /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/touch/perform
 [HTTP] {"actions":[{"action":"tap","options":{"element":"1","x":1,"y":1}}]}
-[HTTP] <-- POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/touch/perform 200 226 ms - 76
+[HTTP] <-- POST /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/touch/perform 200 277 ms - 76
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/source
+[HTTP] --> GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/source
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/source 200 70 ms - 9327
+[HTTP] <-- GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/source 200 232 ms - 13877
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/screenshot
+[HTTP] --> GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/screenshot
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/screenshot 200 1547 ms - 503694
+[HTTP] <-- GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/screenshot 200 1683 ms - 507254
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/context
+[HTTP] --> GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/source
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/context 200 6 ms - 84
+[HTTP] <-- GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/source 200 113 ms - 16959
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/contexts
+[HTTP] --> GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/screenshot
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/contexts 200 89 ms - 86
+[HTTP] <-- GET /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c/screenshot 200 1456 ms - 500910
 [HTTP] 
-[HTTP] --> POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/context
-[HTTP] {"name":"NATIVE_APP"}
-[HTTP] <-- POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/context 200 64 ms - 76
-[HTTP] 
-[HTTP] --> POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/appium/device/hide_keyboard
+[HTTP] --> DELETE /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c
 [HTTP] {}
-[HTTP] <-- POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/appium/device/hide_keyboard 200 1135 ms - 76
-[HTTP] 
-[HTTP] --> POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/context
-[HTTP] {"name":"NATIVE_APP"}
-[HTTP] <-- POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/context 200 57 ms - 76
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/source
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/source 200 81 ms - 9327
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/screenshot
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/screenshot 200 1750 ms - 503694
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/window/current/size
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/window/current/size 200 9 ms - 99
-[HTTP] 
-[HTTP] --> POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/elements
-[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]"}
-[HTTP] <-- POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/elements 200 88 ms - 89
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 2 ms - 1168
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 3 ms - 1168
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 2 ms - 1168
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 2 ms - 1168
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/element/2/location
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/element/2/location 200 36 ms - 89
-[HTTP] 
-[HTTP] --> POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/touch/perform
-[HTTP] {"actions":[{"action":"tap","options":{"element":"2","x":1,"y":1}}]}
-[HTTP] <-- POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/touch/perform 200 593 ms - 76
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/source
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/source 200 54 ms - 3187
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/screenshot
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/screenshot 200 1328 ms - 322754
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/window/current/size
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/window/current/size 200 11 ms - 99
-[HTTP] 
-[HTTP] --> POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/elements
-[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.EditText[1]"}
-[HTTP] <-- POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/elements 200 93 ms - 89
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 4 ms - 1168
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 2 ms - 1168
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 5 ms - 1168
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 3 ms - 1168
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/element/3/location
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/element/3/location 200 15 ms - 88
-[HTTP] 
-[HTTP] --> POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/element/3/clear
-[HTTP] {"id":"3"}
-[HTTP] <-- POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/element/3/clear 200 2503 ms - 76
-[HTTP] 
-[HTTP] --> POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/element/3/value
-[HTTP] {"id":"3","value":["raja@mailinator.com"]}
-[HTTP] <-- POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/element/3/value 200 5717 ms - 76
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/source
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/source 200 65 ms - 3180
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/screenshot
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/screenshot 200 1296 ms - 287382
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/window/current/size
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/window/current/size 200 14 ms - 99
-[HTTP] 
-[HTTP] --> POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/elements
-[HTTP] {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[2]"}
-[HTTP] <-- POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/elements 200 84 ms - 89
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 4 ms - 1168
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 6 ms - 1168
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 4 ms - 1168
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 3 ms - 1168
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/element/4/location
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/element/4/location 200 14 ms - 89
-[HTTP] 
-[HTTP] --> POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/touch/perform
-[HTTP] {"actions":[{"action":"tap","options":{"element":"4","x":1,"y":1}}]}
-[HTTP] <-- POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/touch/perform 200 372 ms - 76
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/source
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/source 200 88 ms - 4524
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/screenshot
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/screenshot 200 1204 ms - 306386
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/context
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/context 200 2 ms - 84
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/contexts
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/contexts 200 75 ms - 86
-[HTTP] 
-[HTTP] --> POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/context
-[HTTP] {"name":"NATIVE_APP"}
-[HTTP] <-- POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/context 200 60 ms - 76
-[HTTP] 
-[HTTP] --> POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/appium/device/hide_keyboard
-[HTTP] {}
-[HTTP] <-- POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/appium/device/hide_keyboard 200 1107 ms - 76
-[HTTP] 
-[HTTP] --> POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/context
-[HTTP] {"name":"NATIVE_APP"}
-[HTTP] <-- POST /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/context 200 58 ms - 76
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/source
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/source 200 59 ms - 3180
-[HTTP] 
-[HTTP] --> GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/screenshot
-[HTTP] {}
-[HTTP] <-- GET /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b/screenshot 200 1336 ms - 323282
-[HTTP] 
-[HTTP] --> DELETE /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b
-[HTTP] {}
-[Appium] Removing session 2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b from our master session list
+[Appium] Removing session 85e27c90-92c6-4c08-a3a1-777b0663417c from our master session list
 [ADB] No uiautomator process found to kill, continuing...
-[HTTP] <-- DELETE /wd/hub/session/2019b97a-ef7b-4e2e-8bdf-40f8d6f1ef4b 200 5001 ms - 76
+[HTTP] <-- DELETE /wd/hub/session/85e27c90-92c6-4c08-a3a1-777b0663417c 200 4884 ms - 76
 [HTTP] 

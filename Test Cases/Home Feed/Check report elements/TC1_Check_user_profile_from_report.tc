@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1_Check_user_profile_from_report</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fae1408b-5ee6-4db9-8f46-ebeae061903b</testCaseGuid>
+</TestCaseEntity>

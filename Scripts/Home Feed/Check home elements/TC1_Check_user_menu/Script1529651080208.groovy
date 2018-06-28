@@ -19,3 +19,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+Mobile.startApplication('/Users/januaripanjaitan/git/Repo-Sumsel/Android Apk/Polisi110_Staging200618.apk', true)
+
+Mobile.tap(findTestObject('android.widget.TextView3 - Login (9)'), 0)
+
+Mobile.setText(findTestObject('android.widget.EditText0 - Email (6)'), 'fajar2@mailinator.com', 0)
+
+Mobile.setText(findTestObject('TextInputLayout0 - Password (7)'), 'fajar1234', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('android.widget.TextView1 - Login (7)'), 0)
+
+Mobile.tap(findTestObject('android.widget.ImageView0'), 0)
+
+Mobile.pressBack()
+
+Mobile.closeApplication()
+
