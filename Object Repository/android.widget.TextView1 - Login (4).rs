@@ -116,28 +116,28 @@
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>64</value>
+      <value>96</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>812</value>
+      <value>1202</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>592</value>
+      <value>888</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>100</value>
+      <value>150</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
