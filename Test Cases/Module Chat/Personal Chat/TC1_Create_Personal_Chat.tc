@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1_Create_Personal_Chat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60f6b8cb-0ab9-471d-a50f-634a01d663a1</testCaseGuid>
+</TestCaseEntity>
