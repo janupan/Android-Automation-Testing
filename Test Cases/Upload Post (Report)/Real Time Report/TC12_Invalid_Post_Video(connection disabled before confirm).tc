@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_Invalid_Post_Video(connection disabled before confirm)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2ec2f05-9a14-4cf5-aff5-4c9126effe5a</testCaseGuid>
+</TestCaseEntity>

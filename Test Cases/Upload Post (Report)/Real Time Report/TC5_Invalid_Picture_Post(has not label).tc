@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC5_Invalid_Picture_Post(has not label)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f6d6cf6-a26e-4181-ac13-6a2052b212ce</testCaseGuid>
+</TestCaseEntity>

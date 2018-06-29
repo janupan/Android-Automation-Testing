@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC7_Invalid_Post(disabled connection after tap confirmation)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b23c227-9e18-4623-bfd5-76baa1e82fb9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4_Invalid_Picture_Post(has not location detail)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0fa4c330-c865-4cc2-b8f0-84c9d28551b6</testCaseGuid>
+</TestCaseEntity>
