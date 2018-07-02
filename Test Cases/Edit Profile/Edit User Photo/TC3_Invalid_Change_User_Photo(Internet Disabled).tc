@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3_Invalid_Change_User_Photo(Internet Disabled)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9302a1bb-461d-4b4f-8f22-db8e6252a833</testCaseGuid>
+</TestCaseEntity>
