@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_Remove_User_from_Group</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>58a34a43-d2f2-490e-8ed6-9240ad249232</testCaseGuid>
+</TestCaseEntity>

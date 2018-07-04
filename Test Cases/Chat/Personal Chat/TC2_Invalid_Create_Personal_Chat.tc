@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2_Invalid_Create_Personal_Chat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ad3a7e63-f3e7-44e8-80ef-51171d46cc88</testCaseGuid>
+</TestCaseEntity>

@@ -19,23 +19,40 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('C:\\Users\\RIKKY\\git\\Repo-Sumsel\\Android Apk\\Polisi110_Staging200618.apk', true)
+Mobile.startApplication('C:\\Users\\RIKKY\\git\\Repo-Sumsel\\Android Apk\\app-dev-debug (5).apk', true)
 
-Mobile.tap(findTestObject('android.widget.TextView3 - Login (33)'), 0)
+Mobile.tap(findTestObject('android.widget.TextView3 - Login (31)'), 0)
 
-Mobile.setText(findTestObject('android.widget.EditText0 - Email (34)'), 'fajar2@mailinator.com', 0)
+Mobile.setText(findTestObject('android.widget.EditText0 - Email (32)'), 'fajar2@mailinator.com', 0)
 
-Mobile.setText(findTestObject('android.widget.EditText1 (33)'), 'fajar1234', 0)
+Mobile.setText(findTestObject('android.widget.EditText1 (31)'), 'fajar1234', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('android.widget.TextView1 - Login (34)'), 0)
+Mobile.tap(findTestObject('android.widget.TextView1 - Login (32)'), 0)
 
-Mobile.tap(findTestObject('android.widget.ImageButton0 (11)'), 0)
+Mobile.tap(findTestObject('android.widget.ImageButton0 (9)'), 0)
 
-Mobile.tapAndHold(findTestObject('android.widget.ImageView3 (34)'), 0, 0)
+Mobile.tapAndHold(findTestObject('android.widget.ImageView3 (31)'), 0, 0)
 
-Mobile.tap(findTestObject('android.widget.TextView7 - Confirm (1)'), 0)
+Mobile.waitForElementPresent(findTestObject('Element Report/android.widget.LinearLayout2'), 0)
+
+Mobile.scrollToText('Select Label', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('android.widget.EditText0 - Please write down your specific location (3)'), 'depan kantor QLue', 
+    0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('android.widget.TextView2 - Select Label (4)'), 0)
+
+Mobile.tap(findTestObject('android.widget.ImageView3 (32)'), 0)
+
+Mobile.tap(findTestObject('android.widget.TextView5 - Confirm Label (4)'), 0)
+
+Mobile.tap(findTestObject('android.widget.TextView4 - Confirm (4)'), 0)
+
+Mobile.tap(findTestObject('android.widget.TextView2 - Yes'), 0)
 
 Mobile.closeApplication()
 

@@ -19,3 +19,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+Mobile.startApplication('C:\\Users\\RIKKY\\git\\Repo-Sumsel\\Android Apk\\app-dev-debug (5).apk', true)
+
+Mobile.tap(findTestObject('android.widget.TextView3 - Login (116)'), 0)
+
+Mobile.setText(findTestObject('android.widget.EditText0 - Email (116)'), 'fajar2@mailinator.com', 0)
+
+Mobile.setText(findTestObject('android.widget.EditText1 (129)'), 'fajar1234', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('android.widget.TextView1 - Login (117)'), 0)
+
+Mobile.tap(findTestObject('android.widget.ImageView0 (58)'), 0)
+
+Mobile.tap(findTestObject('android.widget.ImageView3 (70)'), 0)
+
+Mobile.setText(findTestObject('android.widget.EditText0 - janupan ganteng (2)'), 'janupansuper', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('android.widget.TextView7 - Edit Profile (5)'), 0)
+
+Mobile.closeApplication()
+
