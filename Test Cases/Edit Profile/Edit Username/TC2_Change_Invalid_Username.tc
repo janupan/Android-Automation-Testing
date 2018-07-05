@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2_Change_Invalid_Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff1f219f-c91f-4c3d-9a2e-5b50a374beba</testCaseGuid>
+</TestCaseEntity>

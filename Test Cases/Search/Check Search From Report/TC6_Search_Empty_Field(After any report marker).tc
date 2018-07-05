@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC6_Search_Empty_Field(After any report marker)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f125a669-1ede-48f0-b912-f0bcfba3673f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC7_Invalid_Requirement_Progress_from_Wait_to_Complete(without photo)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c676c47-b4ba-4e94-8459-b757644d60b9</testCaseGuid>
+</TestCaseEntity>

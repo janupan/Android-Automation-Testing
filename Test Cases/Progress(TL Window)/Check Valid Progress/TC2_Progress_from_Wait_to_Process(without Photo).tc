@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2_Progress_from_Wait_to_Process(without Photo)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>539d347f-7913-4e66-af7d-6b6c13ecdee2</testCaseGuid>
+</TestCaseEntity>
