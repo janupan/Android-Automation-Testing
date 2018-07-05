@@ -21,11 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('/Users/januaripanjaitan/git/Repo-Sumsel/Android Apk/Polisi110_Staging200618.apk', true)
 
-Mobile.scrollToText('report')
-
-def itemText = Mobile.getText(findTestObject("android.view.ViewGroup0"), GlobalVariable.G_Timeout)
-
-verifyEqual (itemText, 'report')
-
 Mobile.closeApplication()
 
