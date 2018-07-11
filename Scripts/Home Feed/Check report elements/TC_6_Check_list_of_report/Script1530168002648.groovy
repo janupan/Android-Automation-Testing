@@ -19,13 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/januaripanjaitan/git/Repo-Sumsel/Android Apk/Polisi110_Staging200618.apk', true)
+Mobile.startApplication('F:\\QLUE INTERNSHIP\\app-dev-debug.apk', true)
 
-Mobile.scrollToText('report')
+Mobile.tap(findTestObject('android.widget.TextView3 - Login (123)'), 0)
 
-def itemText = Mobile.getText(findTestObject("android.view.ViewGroup0"), GlobalVariable.G_Timeout)
+Mobile.setText(findTestObject('android.widget.EditText0 - Email (123)'), 'fajar2@mailinator.com', 0)
 
-verifyEqual (itemText, 'report')
+Mobile.setText(findTestObject('android.widget.EditText1 (136)'), 'fajar1234', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('android.widget.TextView1 - Login (124)'), 0)
+
+Mobile.tap(findTestObject('android.widget.ImageView4 (39)'), 0)
 
 Mobile.closeApplication()
 

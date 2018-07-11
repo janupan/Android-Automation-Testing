@@ -19,13 +19,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('C:\\Users\\RIKKY\\git\\Repo-Sumsel\\Android Apk\\app-dev-debug (5).apk', true)
+Mobile.startApplication('F:\\QLUE INTERNSHIP\\app-dev-debug.apk', true)
 
-'Swipe from 128,741 to 464,168 posisition on screen'
-Mobile.swipe(128, 741, 464, 168)
+Mobile.setSliderValue(findTestObject('Slider/android.widget.TextView2 - A mediatior for suggestions on areas in need of development'), 
+    50, 10)
 
-'Since 5.1.0.2, endX and endY will be relative position of (startX, startY) position'
-Mobile.swipe(128, 741, 128, 741)
+Mobile.swipe(200, 300, 400, 600)
+
+Mobile.swipe(200, 300, 200, 300)
 
 Mobile.closeApplication()
 

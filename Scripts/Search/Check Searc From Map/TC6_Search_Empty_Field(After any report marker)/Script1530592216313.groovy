@@ -19,3 +19,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+Mobile.startApplication('F:\\QLUE INTERNSHIP\\app-dev-debug.apk', true)
+
+Mobile.tap(findTestObject('android.widget.TextView3 - Login (120)'), 0)
+
+Mobile.setText(findTestObject('android.widget.EditText0 - Email (120)'), 'fajar2@mailinator.com', 0)
+
+Mobile.setText(findTestObject('android.widget.EditText1 (133)'), 'fajar1234', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('android.widget.TextView1 - Login (121)'), 0)
+
+Mobile.tap(findTestObject('android.widget.ImageView1 (33)'), 0)
+
+Mobile.tap(findTestObject('android.support.v7.app.ActionBarTab1'), 0)
+
+Mobile.setText(findTestObject('android.widget.MultiAutoCompleteTextView0 - Search anything here (8)'), 'upload text', 0)
+
+Mobile.closeApplication()
+

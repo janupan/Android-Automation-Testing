@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/januaripanjaitan/git/Repo-Sumsel/Android Apk/Polisi110_Staging200618.apk', true)
+Mobile.startApplication('F:\\\\QLUE INTERNSHIP\\\\app-dev-debug.apk', true)
 
 Mobile.tap(findTestObject('android.widget.TextView3 - Login (8)'), 0)
 
