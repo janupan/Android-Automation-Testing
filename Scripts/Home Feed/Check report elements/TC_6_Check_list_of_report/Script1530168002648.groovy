@@ -21,7 +21,6 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('F:\\QLUE INTERNSHIP\\app-dev-debug.apk', true)
 
-<<<<<<< HEAD
 Mobile.tap(findTestObject('android.widget.TextView3 - Login (123)'), 0)
 
 Mobile.setText(findTestObject('android.widget.EditText0 - Email (123)'), 'fajar2@mailinator.com', 0)
@@ -34,7 +33,5 @@ Mobile.tap(findTestObject('android.widget.TextView1 - Login (124)'), 0)
 
 Mobile.tap(findTestObject('android.widget.ImageView4 (39)'), 0)
 
-=======
->>>>>>> branch 'master' of https://github.com/janupan/Repo-Sumsel.git
 Mobile.closeApplication()
 
