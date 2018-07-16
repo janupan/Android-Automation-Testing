@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4_Invalid_Post(has not report detail)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f5941d33-a7f8-4031-8613-6381e6c2b526</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC7_Invalid_Post_Picture(No Connection)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b32cf72e-b5ca-4edf-a4c6-d1d93cac4bbd</testCaseGuid>
+</TestCaseEntity>
